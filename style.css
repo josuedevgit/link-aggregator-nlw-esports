@@ -130,6 +130,51 @@ main section:nth-child(3) {
     animation-delay: .6s;
 }
 
+.avengers {
+    animation: rightLeft .7s backwards;
+    animation-delay: 0;
+}
+
+.cap {
+    animation: rightLeft .7s backwards;
+    animation-delay: .3s;
+}
+
+.shang-chi {
+    animation: rightLeft .7s backwards;
+    animation-delay: .6s;
+}
+
+.gaveta {
+    animation: rightLeft .7s backwards;
+    animation-delay: .2s;
+}
+
+.peewee {
+    animation: rightLeft .7s backwards;
+    animation-delay: .6s;
+}
+
+.cosmogeek {
+    animation: rightLeft .7s backwards;
+    animation-delay: .9s;
+}
+
+.linkedin {
+    animation: rightLeft .7s backwards;
+    animation-delay: .3s;
+}
+
+.instagram {
+    animation: rightLeft .7s backwards;
+    animation-delay: .7s;
+}
+
+.youtube {
+    animation: rightLeft .7s backwards;
+    animation-delay: .9s;
+}
+
 @keyframes fromTop {
     from {
         opacity: 0;
@@ -146,6 +191,18 @@ main section:nth-child(3) {
     from {
         opacity: 0;
         transform: translateX(-30px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes rightLeft {
+    from {
+        opacity: 0;
+        transform: translateX(40px)
     }
 
     to {
